@@ -325,7 +325,6 @@ display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 107px 140px;
-
 width: 1440px;
 height: 552px;
 background: #FFFFFF;
@@ -335,4 +334,132 @@ flex: none;
 order: 2;
 align-self: stretch;
 flex-grow: 0;
+}
+
+.Featured_Image_Container{
+/* Featured Image Container */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+gap: 10px;
+
+width: 580px;
+height: 338px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+
+}
+
+.Featured_Deistination_Blurb{
+/* Featured Destination Blurb */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 24px;
+
+width: 580px;
+height: 292px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+
+.Featured_Deistination_Copywriting{
+/* Featured Destination Copywriting */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+width: 520px;
+height: 172px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.Featured_Deistination_Category{
+/* Featured Destination Category */
+width: 520px;
+height: 21px;
+ont-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #8A53FF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.Featured_Deistination_Title{
+/* Featured destination Title */
+width: 520px;
+height: 36px;
+font-family: 'Changa One';
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 36px;
+/* identical to box height, or 92% */
+color: #434343;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.Featured_Deistination_Discription{
+/* Featured Destination description */
+width: 520px;
+height: 99px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 33px;
+/* or 183% */
+color: #434343;
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+.Featured_Deistination_CTA{ 
+ /* Watch Highlights CTA */
+ color: #8A53FF;
+ width: 130px;
+ height: 46px;
+
+border: #8A53FF;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+ display: flex;
+ align-items: center;
+ cursor: pointer;
+ justify-content: space-between;
+ background-color: transparent;
 }
