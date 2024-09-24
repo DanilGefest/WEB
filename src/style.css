@@ -4,6 +4,8 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Roboto';
+    caret-color: transparent
 }
 .header_section{
 display: flex;
@@ -97,7 +99,6 @@ flex-grow: 0;
 }
 
 .header_menu_text{
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -131,7 +132,7 @@ flex-grow: 0;
 
 width: 1440px;
 height: 580px;
-
+display: flex;
 mix-blend-mode: multiply;
 
 /* Inside auto layout */
@@ -156,13 +157,10 @@ background-image: url("hero_background_image.jpg");
 .hero_container{
     /* Hero Section */
 
-width: 1440px;
-height: 580px;
-width: Fixed (765px)px;
-height: Fixed (580px)px;
-padding: 40px 120px 40px 140px;
+width: 600px;
+height: 300px;
+padding: 125px 120px 40px 140px;
 gap: 34px;
-opacity: 0px;
 
 mix-blend-mode: multiply;
 
@@ -178,8 +176,8 @@ flex-grow: 0;
 
 width: 1440px;
 height: 580px;
-
 mix-blend-mode: multiply;
+
 
 /* Inside auto layout */
 flex: none;
@@ -240,7 +238,6 @@ flex-grow: 0;
 width: 505px;
 height: 72px;
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 22px;
@@ -268,7 +265,7 @@ flex-grow: 0;
 display: flex;
 flex-direction: row;
 align-items: center;
-padding: 0px;
+padding-top: 30px;
 gap: 24px;
 
 width: 400px;
@@ -278,6 +275,7 @@ flex: none;
 order: 1;
 flex-grow: 0;
 
+
 }
 .share_your_story{
     /* Share your story CTA */
@@ -286,7 +284,7 @@ width: 165.17px;
 height: 46px;
 color: white;
 justify-content: center;
-
+cursor: pointer;
 background: #8A53FF;
 border-radius: 4px;
 display: flex;
@@ -297,12 +295,44 @@ display: flex;
 flex: none;
 order: 0;
 flex-grow: 0;
+border: #8A53FF;
 
 }
 
 .image_play{
+    /* Watch Highlights CTA */
+
+    width: 160px;
+    height: 46px;
+
+border: #ffffff;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
     display: flex;
     align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    background-color: transparent;
+}
 
+.Featured_Deistination_Section{
+/* Featured Destination Section */
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 107px 140px;
 
+width: 1440px;
+height: 552px;
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
 }
