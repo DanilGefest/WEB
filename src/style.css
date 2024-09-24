@@ -1,5 +1,9 @@
 
 .home_style{color: blue;}
+body{
+    display: flex;
+    justify-content: center;
+}
 .header_section{
 display: flex;
 flex-direction: column;
@@ -20,8 +24,8 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 }
-.header_row{
 
+.header_row{
 /* Auto layout */
 display: flex;
 flex-direction: row;
@@ -33,11 +37,87 @@ gap: 693px;
 width: 1202px;
 height: 64px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
+}
+
+.header_logo{
+    /* Header Logo */
+
+margin: 0 auto;
+width: 100px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 
 }
+
+.header_menu{
+  /* Header Menu Options Row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 18px;
+
+margin: 0 auto;
+width: 457px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.header_links{
+    /* Header Links */
+display: flex;
+justify-content: space-between;
+width: 359px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.header_menu_text{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+color: #495367;
+}
+.text_decor{
+    text-decoration: none;
+}
+
+.hr_90{
+
+width: 23.6px;
+height: 1px;
+
+border: 1px solid #000000;
+transform: rotate(90deg);
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
