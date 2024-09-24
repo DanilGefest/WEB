@@ -5,7 +5,8 @@ body{
     justify-content: center;
     flex-direction: column;
     font-family: 'Roboto';
-    caret-color: transparent
+    caret-color: transparent;
+    width: 100%;
 }
 .header_section{
 display: flex;
@@ -326,7 +327,6 @@ flex-direction: row;
 align-items: flex-start;
 padding: 107px 140px;
 width: 1440px;
-height: 552px;
 background: #FFFFFF;
 
 /* Inside auto layout */
@@ -393,9 +393,9 @@ flex-grow: 0;
 
 .Featured_Deistination_Category{
 /* Featured Destination Category */
-width: 520px;
+
 height: 21px;
-ont-family: 'Roboto';
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
@@ -405,15 +405,17 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #8A53FF;
 /* Inside auto layout */
-flex: none;
+display: flex;
+align-items: center;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
+justify-content: left;
 }
 
 .Featured_Deistination_Title{
 /* Featured destination Title */
-width: 520px;
+
 height: 36px;
 font-family: 'Changa One';
 font-style: normal;
@@ -427,6 +429,7 @@ flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
+justify-content: center;
 }
 
 .Featured_Deistination_Discription{
@@ -463,3 +466,164 @@ flex-grow: 0;
  justify-content: space-between;
  background-color: transparent;
 }
+
+.Discover_the_world_selection{
+/* Discover the world section */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 24px;
+gap: 48px;
+width: 1440px;
+height: 621px;
+background: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.Discover_the_world_header{
+/* Discover the world header */
+/* Auto layout */
+flex-direction: column;
+padding-bottom: 35px;
+gap: 8px;
+height: 69px;
+display: flex;
+align-content: center;
+justify-content: center;
+/* Inside auto layout */
+}
+
+.Location_cards_row{
+/* Location cards row */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-content: center;
+padding: 0px;
+width: 1202px;
+height: 410px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.Two_cards{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+width: 601px;
+height: 410px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+.Exemp_of_card{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+width: 268.5px;
+height: 317.05px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.Card_image{
+/* card image */
+width: 268.5px;
+height: 317.05px;
+background: url(.jpg), #C4C4C4;
+border-radius: 8px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.Card_text_title{
+    /* Iceland */
+width: 268.5px;
+height: 36px;
+font-family: 'Changa One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+text-align: center;
+color: #434343;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.Discover_button{
+    /* Discover */
+
+width: 268.5px;
+height: 14.95px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #8A53FF;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+background-color: transparent;
+border: transparent;
+cursor: pointer;
+}
+
+.Join_our_adventures{
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #8A53FF;
+    /* Inside auto layout */
+    display: flex;
+    align-items: center;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    justify-content: center;
+
+}
+
