@@ -110,14 +110,17 @@ color: #495367;
 }
 
 .hr_90{
+/* Seperator */
 
 width: 23.6px;
-height: 1px;
+height: 0px;
 
-border: 1px solid #000000;
+border: 1px solid #EEEEEE;
 transform: rotate(90deg);
+
+/* Inside auto layout */
 flex: none;
-order: 2;
+
 flex-grow: 0;
 }
 
