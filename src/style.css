@@ -60,7 +60,7 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
-
+    cursor: pointer;
 }
 
 .header_menu {
@@ -349,7 +349,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
+ 
     gap: 10px;
 
     width: 580px;
@@ -744,249 +744,251 @@ body {
 }
 
 
-.Recent_Stories_Section{
+.Recent_Stories_Section {
     display: flex;
     width: 1440px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-position: center;
-    order: 3; 
+    order: 3;
 }
 
-.Recent_Stories_Titles{
+.Recent_Stories_Titles {
     display: flex;
 
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
 
 
-.Story_block{
+.Story_block {
     /* Story Block */
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
 
 
-/* Inside auto layout */
-flex: none;
-order: 1;
-
-}
-
-.big_image_recent{
-/* Big Story Image */
-
-width: 560px;
-height: 358.11px;
-border-radius: 8px 8px 0px 0px;
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
 
 }
 
-.Stories_left{
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px 20px;
-gap: 10px;
-width: 600px;
-height: 476.11px;
-/* Inside auto layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 1;
-}
+.big_image_recent {
+    /* Big Story Image */
 
-.Big_Story_Body{
-/* Big Story Body */
+    width: 560px;
+    height: 358.11px;
+    border-radius: 8px 8px 0px 0px;
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-flex-direction: row;
-gap: 10px;
-width: 560px;
-background: #F9F9F9;
-border-radius: 0px 0px 8px 8px;
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 
 }
 
-.Big_Story_Text_body{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 14px 24px;
-gap: 10px;
+.Stories_left {
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 10px;
+    width: 600px;
+    height: 476.11px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
 
-width: 560px;
-height: 118px;
+.Big_Story_Body {
+    /* Big Story Body */
 
-background: #F9F9F9;
-border-radius: 0px 0px 8px 8px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    width: 540px;
+    background: #F9F9F9;
+    border-radius: 0px 0px 8px 8px;
 
-/* Inside auto layout */
-flex: none;
-order: 1;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+
+    align-items: center;
+
+}
+
+.Big_Story_Text_body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 24px;
+    gap: 10px;
+
+    width: 400px;
+    height: 118px;
+
+    background: #F9F9F9;
+    border-radius: 0px 0px 8px 8px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
 
 
 }
-.Big_Story_Text{
-   /* Big Story Text */
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+.Big_Story_Text {
+    /* Big Story Text */
 
-padding-top: 20pz;
-width: 435.13px;
-height: 90px;
-/* Inside auto layout */
-flex: none;
-order: 0;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding-top: 20pz;
+    width: 435.13px;
+    height: 90px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
 }
 
-.Big_Story_Text_Title{
+.Big_Story_Text_Title {
     /* Zermatt, Switzerland */
-width: 435.13px;
-font-family: 'Changa One';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-/* identical to box height, or 150% */
-color: #434343;
-/* Inside auto layout */
-flex: none;
-order: 0;
-margin-left: 10%;
+    width: 435.13px;
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* identical to box height, or 150% */
+    color: #434343;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    margin-left: 10%;
 }
 
-.Stories_right{
+.Stories_right {
     /* Stories Right */
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-gap: 10px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
 
-width: 600px;
-height: 476px;
+    width: 600px;
+    height: 476px;
 
 
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 1;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
 
 }
 
-.Story_Card{
+.Story_Card {
     /* Story Card */
 
-/* Auto layout */
-display: flex;
-align-items: flex-start;
-padding: 10px 11px;
-gap: 20px;
-width: 600px;
-height: 148px;
-background: #F9F9F9;
+    /* Auto layout */
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 11px;
+    gap: 20px;
+    width: 600px;
+    height: 148px;
+    background: #F9F9F9;
 }
 
 
-.Card_text_style{
-/* Story Text */
-/* Auto layout */
-display: flex;
-flex-direction: column;
-width: 358px;
-height: 128px;
+.Card_text_style {
+    /* Story Text */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+    height: 128px;
 }
 
-.Story_Title_text{
+.Story_Title_text {
     /* Tuscany, Italy */
 
-width: 358px;
-height: 36px;
+    width: 358px;
+    height: 36px;
 
-font-family: 'Changa One';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height, or 150% */
-color: #434343;
-/* Inside auto layout */
-flex: none;
-order: 0;
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    color: #434343;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
 }
 
-.Story_Title_description{
-font-size: 16px;
-line-height: 26px;
-/* or 162% */
-color: #576074;
-order: 1;
+.Story_Title_description {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #576074;
+    order: 1;
 }
 
 footer {
 
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-padding: 32px 120px;
-width: 1440px;
-height: 80px;
-background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 120px;
+    width: 1500px;
+    height: 80px;
+    background: #FFFFFF;
 
-/* Inside auto layout */
-flex: none;
-order: 6;
-align-self: stretch;
-flex-grow: 0;
+    /* Inside auto layout */
+    flex: none;
+    order: 6;
+    align-self: stretch;
+    flex-grow: 0;
 
 }
+
 .footer_link {
     justify-content: space-between;
     flex-direction: row;
     display: flex;
-    gap: 30px;   
+    gap: 30px;
 }
 
-.Pla_button_big{
+.Play_button_big {
     /* Play Button */
 
-width: 48.87px;
-height: 48px;
-
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
+    width: 70px;
+    height: 70px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
 }
