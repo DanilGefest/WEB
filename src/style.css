@@ -651,7 +651,7 @@ body {
     color: #8A53FF;
     font-weight: 700;
     font-size: 18px;
-    font-family: Roboto;
+
 }
 
 .join_text {
@@ -740,6 +740,7 @@ body {
     border-radius: 4px;
     color: #FFFFFF;
     border-color: #8A53FF;
+    cursor: pointer;
 }
 
 
@@ -749,27 +750,215 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     order: 3; 
 }
 
 .Recent_Stories_Titles{
     display: flex;
-    width: 1440px;
+
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    
 }
 
-.Recent_Stories_Title{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+
+
+
+.Story_block{
+    /* Story Block */
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+
 }
 
-.Recent_Stories_text{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+.big_image_recent{
+/* Big Story Image */
+
+width: 560px;
+height: 358.11px;
+border-radius: 8px 8px 0px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.Stories_left{
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 20px;
+gap: 10px;
+width: 600px;
+height: 476.11px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+}
+
+.Big_Story_Body{
+/* Big Story Body */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+gap: 10px;
+
+width: 560px;
+
+
+background: #F9F9F9;
+border-radius: 0px 0px 8px 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.Big_Story_Text{
+   /* Big Story Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 2px;
+width: 435.13px;
+height: 90px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.Big_Story_Text_Title{
+    /* Zermatt, Switzerland */
+width: 435.13px;
+height: 36px;
+font-family: 'Changa One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+/* identical to box height, or 150% */
+color: #434343;
+/* Inside auto layout */
+flex: none;
+order: 0;
+margin-left: 10%;
+}
+
+.Stories_right{
+    /* Stories Right */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 600px;
+height: 476px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+}
+
+.Story_Card{
+    /* Story Card */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 11px;
+gap: 20px;
+width: 600px;
+height: 148px;
+background: #F9F9F9;
+border-radius: 8px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.Card_text_style{
+/* Story Text */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 8px 0px 0px;
+gap: 6px;
+width: 358px;
+height: 128px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+
+}
+
+.Story_Title_text{
+    /* Tuscany, Italy */
+
+width: 358px;
+height: 36px;
+
+font-family: 'Changa One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+color: #434343;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.Story_Title_description{
+    /* The amazing Tuscany is home to famous Renaissance art and architecture and a vast scenic landscape. view full blog... */
+width: 358px;
+height: 78px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+color: #576074;
+flex: none;
+order: 1;
+
 }
