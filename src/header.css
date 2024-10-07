@@ -1,0 +1,126 @@
+.home_style {
+    color: blue;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "roboto";
+    caret-color: transparent;
+  }
+  
+  .header_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 10px;
+    width: 1440px;
+    height: 90px;
+    background: #ffffff;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.04);
+  
+    /* inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .header_row {
+    /* auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    gap: 693px;
+  
+    width: 1202px;
+    height: 64px;
+  
+    /* inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .header_logo {
+    /* header logo */
+  
+    margin: 0 auto;
+    width: 100px;
+    height: 64px;
+  
+    /* inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+  }
+  
+  .header_menu {
+    /* header menu options row */
+  
+    /* auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 18px;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 457px;
+    height: 24px;
+  
+    /* inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .header_links {
+    /* header links */
+    display: flex;
+    justify-content: space-between;
+    width: 359px;
+    height: 19px;
+  
+    /* inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .header_menu_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    color: #495367;
+  }
+  
+  .text_decor {
+    text-decoration: none;
+  }
+  
+  .hr_90 {
+    /* seperator */
+  
+    width: 23.6px;
+    height: 0px;
+  
+    border: 1px solid #eeeeee;
+    transform: rotate(90deg);
+  
+    /* inside auto layout */
+    flex: none;
+  
+    flex-grow: 0;
+  }

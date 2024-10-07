@@ -1,0 +1,545 @@
+.article {
+  /* blog article */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 46px 258px;
+  gap: 35px;
+
+  width: 900px;
+  height: 2200px;
+
+  background: #ffffff;
+  mix-blend-mode: multiply;
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+
+}
+
+.article_section {
+  /* article hero section */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+
+  width: 911.64px;
+  height: 635px;
+
+
+  /* inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.article_autor {
+  /* auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  margin-top: 10px;
+  margin-left: 150px;
+  gap: 10px;
+  justify-content: start;
+  width: 190.47px;
+  height: 35px;
+
+  order: 1;
+  flex-grow: 0;
+}
+
+.article_hero_header {
+  /* article hero header */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  width: 911.64px;
+  height: 75px;
+
+
+  /* inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.author_text {
+  /* author text */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 145.47px;
+  height: 35px;
+
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.name_author {
+  /* darrell steward */
+
+  width: 145.47px;
+  height: 19px;
+
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #495367;
+  /* inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.author_discription {
+  /* author / photographer */
+  width: 145.47px;
+  height: 16px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #a2a7b1;
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.article_hero_video {
+  /* article hero video */
+  display: flex;
+  width: 911.64px;
+  height: 540px;
+  /*background-image: url("article\ hero\ image.jpg");*/
+  align-items: start;
+  /* inside auto layout */
+  flex: none;
+  align-self: stretch;
+  /* article hero video */
+  position: absolute;
+  margin-top: 80px;
+  width: 911.64px;
+  height: 540px;
+  align-items: center;
+  justify-content: center;
+}
+
+.video_text {
+  /* the matterhorn */
+
+  position: absolute;
+  margin-top: -90px;
+
+  font-family: 'black signature personal use only';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 92px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+
+
+}
+
+.clincher_paragraph {
+  /* clincher paragraph */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: column;
+  width: 911.64px;
+  height: 124px;
+  /* inside auto layout */
+}
+
+.clincher_title {
+  /* clincher title */
+
+  width: 911.64px;
+  height: 36px;
+  font-family: 'changa one';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+  color: #434343;
+
+  /* inside auto layout */
+  flex: none;
+}
+
+.clincher_text {
+  /* clincher text */
+
+  width: 911.64px;
+  height: 78px;
+
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #434343;
+  /* inside auto layout */
+}
+
+.button_class {
+  position: absolute;
+  cursor: pointer;
+}
+
+.callout_section {
+  /* callout section */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 911.64px;
+  height: 527px;
+
+
+  /* inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+
+}
+
+.callout_images {
+  /* callout images */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+
+  width: 455.82px;
+  height: 481px;
+
+  /* inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.callout_images_column {
+  /* callout images */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+
+  width: 455.82px;
+  height: 481px;
+
+
+  /* inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.callout_copywriting {
+  /* callout copywriting */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 30px;
+  gap: 30px;
+  max-width: 455px;
+
+  height: 527px;
+
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.callout_title {
+  /* callout copywriting */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  gap: 30px;
+
+  width: 455.82px;
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+
+}
+
+.callout_title_text {
+  /* one of the best hikes we’ve done so far... */
+
+  width: 370.21px;
+
+  font-family: 'changa one';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 47px;
+  /* or 112% */
+  letter-spacing: -0.04em;
+
+  color: #434343;
+
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.callout_button {
+  /* view full gallery button */
+
+  width: 165.17px;
+  height: 46px;
+  color: #ffffff;
+  background: #8a53ff;
+  border-radius: 4px;
+  border: 0px;
+
+  /* inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.callout_text {
+  /* callout text */
+
+  width: 421.82px;
+  height: 208px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #434343;
+
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.callout_button_text {
+  /* view full gallery */
+  left: 9.52px;
+  right: 9.52px;
+  top: 13.5px;
+  bottom: 13.5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+
+.conclusion_text {
+  /* conclusion text */
+
+  width: 911.64px;
+  height: 130px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #434343;
+  /* inside auto layout */
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.highlights_section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+
+  width: 911.64px;
+  height: 431.55px;
+
+  /* inside auto layout */
+  flex: none;
+  order: 4;
+}
+
+.highlights_title {
+  /* hightlights */
+
+  width: 911.64px;
+  height: 36px;
+
+  font-family: 'changa one';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  /* identical to box height, or 112% */
+  color: #434343;
+  /* inside auto layout */
+  flex: none;
+}
+
+.highlights_row {
+  /* highlights row */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 911.64px;
+  height: 380.55px;
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.hightlights_card {
+  /* highlight card */
+
+  /* auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 15px 0px 0px;
+  gap: 12px;
+
+  width: 303.88px;
+  height: 380.55px;
+
+
+  /* inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.hightlights_card_img {
+  /* highlight image */
+  width: 288.88px;
+  height: 346.55px;
+
+  background: url(.jpg), #f7f8f9;
+  border-radius: 8px;
+
+  /* inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.hightlights_card_text {
+  /* the barns built in the 13th and 14th century */
+  width: 288.88px;
+  height: 22px;
+
+  font-family: 'roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  color: #828181;
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.disclaimer_text {
+  /* disclaimer the covid-19 pandemic has dealt a severe blow to the tourism business in switzerland. although it is a minor position in the swiss export balance, it is nevertheless of considerable importance for those regions of the country that attract domestic and foreign visitors. as a consequence of the lockdown measures, combined with close borders and travel bans, tourism collapsed and only briefly and partly recovered in summer. its future is uncertain and depends on people’s (future guests’) attitudes and decisions as much as on the economy, political measures and, of course, the progress of the pandemic. */
+
+  width: 853.64px;
+  height: 182px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #434343;
+  /* inside auto layout */
+  flex: none;
+  order: 7;
+  flex-grow: 1;
+}
+
+.bold_text {
+  font-weight: 700;
+}

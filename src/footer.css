@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 120px;
+    width: 1500px;
+    height: 80px;
+    background: #ffffff;
+  
+    /* inside auto layout */
+    flex: none;
+    order: 6;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .footer_link {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    gap: 30px;
+  }

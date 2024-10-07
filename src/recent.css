@@ -1,0 +1,211 @@
+
+.recent_stories_section {
+    display: flex;
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    order: 3;
+  }
+  
+  .recent_stories_titles {
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .story_block {
+    /* story block */
+    /* auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    /* inside auto layout */
+    flex: none;
+    order: 1;
+  }
+  
+  .big_image_recent {
+    /* big story image */
+  
+    width: 560px;
+    height: 358.11px;
+    border-radius: 8px 8px 0px 0px;
+  
+    /* inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .stories_left {
+    /* auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 10px;
+    width: 600px;
+    height: 476.11px;
+    /* inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+  }
+  
+  .big_story_body {
+    /* big story body */
+  
+    /* auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    width: 540px;
+    background: #f9f9f9;
+    border-radius: 0px 0px 8px 8px;
+  
+    /* inside auto layout */
+    flex: none;
+    order: 1;
+  
+    align-items: center;
+  }
+  
+  .big_story_text_body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 24px;
+    gap: 10px;
+  
+    width: 400px;
+    height: 118px;
+  
+    background: #f9f9f9;
+    border-radius: 0px 0px 8px 8px;
+  
+    /* inside auto layout */
+    flex: none;
+    order: 1;
+  }
+  
+  .big_story_text {
+    /* big story text */
+  
+    /* auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    padding-top: 20pz;
+    width: 435.13px;
+    height: 90px;
+    /* inside auto layout */
+    flex: none;
+    order: 0;
+  }
+  
+  .big_story_text_title {
+    /* zermatt, switzerland */
+    width: 435.13px;
+    font-family: "changa one";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* identical to box height, or 150% */
+    color: #434343;
+    /* inside auto layout */
+    flex: none;
+    order: 0;
+    margin-left: 10%;
+  }
+  
+  .stories_right {
+    /* stories right */
+  
+    /* auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+  
+    width: 600px;
+    height: 476px;
+  
+    /* inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+  }
+  
+  .story_card {
+    /* story card */
+  
+    /* auto layout */
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 11px;
+    gap: 20px;
+    width: 600px;
+    height: 148px;
+    background: #f9f9f9;
+  }
+  
+  .card_text_style {
+    /* story text */
+    /* auto layout */
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+    height: 128px;
+  }
+  
+  .story_title_text {
+    /* tuscany, italy */
+  
+    width: 358px;
+    height: 36px;
+  
+    font-family: "changa one";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    color: #434343;
+    /* inside auto layout */
+    flex: none;
+    order: 0;
+  }
+  
+  .story_title_description {
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #576074;
+    order: 1;
+  }
+  
+  .play_button_big {
+    /* play button */
+  
+    width: 70px;
+    height: 70px;
+    /* inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+  }
