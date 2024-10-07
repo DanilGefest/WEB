@@ -1,69 +1,42 @@
-### README.md
+Project: Travel Submission Form Page
+Description
+This project is a web page where users can share their suggestions for new travel destinations to be featured in the blog. The page includes a form with fields for entering names, locations, countries, shooting categories, and description texts. Users can submit these entries for consideration.
 
-# Проект: Страница формы для публикации путешествий
+Structure
+The project consists of HTML and CSS files:
 
-## Описание
+HTML:
+The structure uses elements like <form>, <input>, <select>, and <textarea> to create sections for entering data.
+Key blocks include headings, descriptive texts, and the submission form itself.
+CSS:
+Styles are applied to various elements on the page including layouts, background images, and input controls such as text boxes and dropdown menus.
+Class Structure
+The HTML and CSS files use the following classes:
 
-Данный проект представляет собой веб-страницу, где пользователи могут поделиться своими предложениями о путешествиях. Страница включает форму для ввода данных о новых направлениях, которые пользователи хотят видеть в блоге, и позволяет отправить их на рассмотрение. Форма включает поля для ввода имени, названия направления, выбора страны и категории съёмки, а также текстовое поле для описания.
+HTML:
+Main Container:
+community_section: Main container for the form section.
+Headings:
+community_title: Title "LET'S BUILD A COMMUNITY".
+join_text: Invitation text "Join our next destination".
+travel_share_text: Heading for the form "Share your travels".
+Form Elements:
+travel_form: Wrapper for all form elements.
+input_field: Text input fields.
+dropdown_select: Dropdown select menus.
+textarea_field: Text area for describing the trip.
+Button:
+form_button: Submit button for the form.
+CSS:
+Styles are applied to these classes to control sizes, appearance, positioning, and interaction behavior.
 
-## Структура проекта
+Usage Instructions
+Clone the repository using the command:
 
-Проект состоит из **HTML** и **CSS** файлов:
-
-1. **HTML**:
-    - Структура страницы представлена с использованием элементов формы (`<form>`, `<input>`, `<select>`, `<textarea>`) и разделов для текста.
-    - Основные блоки включают заголовки, текстовые описания и саму форму для ввода данных.
-
-2. **CSS**:
-    - Стили оформления формы и остальных элементов страницы.
-    - Используются стили для гибкого расположения блоков, фоновых изображений и элементов управления формой (поля ввода, выпадающие списки и кнопки).
-
-## Структура классов
-
-HTML и CSS файлы используют следующие классы:
-
-### HTML:
-
-- **Основной контейнер**: 
-    - `community_section` — основной блок секции формы.
-- **Заголовки**: 
-    - `community_title` — заголовок "LET’S BUILD A COMMUNITY".
-    - `join_text` — текст приглашения "Join our next destination".
-    - `travel_share_text` — заголовок формы "Share your travels".
-- **Форма**:
-    - `travel_form` — контейнер для всех элементов формы.
-    - `input_field` — поля ввода текста.
-    - `dropdown_select` — выпадающие списки.
-    - `textarea_field` — текстовое поле для описания.
-- **Кнопка**:
-    - `form_button` — кнопка отправки формы.
-
-### CSS:
-
-Стили применяются к вышеуказанным классам, отвечая за:
-
-- Размеры и внешний вид элементов (ширина, высота, цвета).
-- Расположение элементов на странице.
-- Взаимодействие с пользователем (стили кнопок и полей).
-
-## Как использовать
-
-1. Склонируйте проект с помощью команды:
-
-    ```bash
-    git clone https://github.com/DanilGefest/WEB
-    ```
-
-2. Откройте файл `index.html` в браузере для просмотра страницы.
-
-3. Для кастомизации стилей изменяйте соответствующие классы в файле `styles.css`.
-
-## Будущие улучшения
-
-- Добавление валидации формы на клиентской стороне.
-- Интеграция с сервером для обработки отправленных данных.
-- Улучшение адаптивности страницы для мобильных устройств.
-
-## Лицензия
-
-Проект доступен под лицензией **MIT**.
+git clone https://github.com/DanilGefest/WEB
+Open index.html in a browser to view the page.
+To customize styles, edit the corresponding classes in styles.css.
+Future Improvements
+Add client-side validation to the form.
+Integrate with a server to process submitted data.
+Enhance responsiveness for mobile devices.
